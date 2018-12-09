@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AssemblyLabel" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="CaptionAdvancedSettings" xml:space="preserve">
+    <value>Advanced Settings</value>
+  </data>
+  <data name="CaptionError" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="CsvFileFilter" xml:space="preserve">
+    <value>csv files (*.csv)|*.csv</value>
+  </data>
+  <data name="DefaultNotificationMessage" xml:space="preserve">
+    <value>A login request is initiated.</value>
+  </data>
+  <data name="DiskReadError" xml:space="preserve">
+    <value>Error occurred while reading file from disk.</value>
+  </data>
+  <data name="ErrorSharedSecret" xml:space="preserve">
+    <value>Enter shared secret.</value>
+  </data>
+  <data name="Module" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="ServerSiteMessage" xml:space="preserve">
+    <value>To protect the server sites (root node) with Two-Factor authentication, select its check box.To 
+unprotect, clear its checkbox. Only selected web application(s) under the server site will be 
+protected.</value>
+  </data>
+  <data name="RestartServerSiteMessage" xml:space="preserve">
+    <value>Restarting selected site(s).</value>
+  </data>
+  <data name="ServerSettings" xml:space="preserve">
+    <value>Server settings</value>
+  </data>
+  <data name="ServerIpAddress" xml:space="preserve">
+    <value>localhost</value>
+  </data>
+  <data name="ModuleAppDirectoryName" xml:space="preserve">
+    <value>/Module</value>
+  </data>
+  <data name="RegistryKeyPath" xml:space="preserve">
+    <value>Software\\Module</value>
+  </data>
+  <data name="ServerName" xml:space="preserve">
+    <value>Server name</value>
+  </data>
+  <data name="LabelOk" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="LabelProtectedSites" xml:space="preserve">
+    <value>Protected server sites</value>
+  </data>
+  <data name="LabelSelectRepository" xml:space="preserve">
+    <value>Select the repository where list of users are stored.</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>An unexpected error occurred while starting the application.If the error occurs again, contact your administrator.</value>
+  </data>
+  <data name="ErrorInitializeWebSites" xml:space="preserve">
+    <value>Failed to initialize the list of available websites in IIS server : {0}</value>
+  </data>
+  <data name="ErrorReadingConfigFile" xml:space="preserve">
+    <value>Failed to read the settings from config file : {0}</value>
+  </data>
+  <data name="ErrorSavingConfigFile" xml:space="preserve">
+    <value>Failed to save configuration settings : {0}</value>
+  </data>
+  <data name="ErrorSavingActiveDirectorySettings" xml:space="preserve">
+    <value>Failed to save user repository settings : {0}</value>
+  </data>
+  <data name="ErrorReadingProtectedSiteSettings" xml:space="preserve">
+    <value>Failed to read the protected site settings values from config file : {0}</value>
+  </data>
+  <data name="ErrorSavingProtectedSiteSettings" xml:space="preserve">
+    <value>Failed to save the protected site settings value in config file : {0}</value>
+  </data>
+  <data name="ErrorRemovingAppDirectoryFromServer" xml:space="preserve">
+    <value>Error occurred while removing web module from IIS site : {0}</value>
+  </data>
+  <data name="ErrorDeletingModuleElementFromServer" xml:space="preserve">
+    <value>Error occurred while deleting module element from IIS web application : {0}</value>
+  </data>
+  <data name="ErrorDeletingAppDirectoryFromServer" xml:space="preserve">
+    <value>Error occurred while deleting module web application from IIS site : {0}</value>
+  </data>
+  <data name="GlobalAssemblyPath" xml:space="preserve">
+    <value>C:\Windows\Microsoft.NET\assembly\GAC_MSIL</value>
+  </data>
+  <data name="AssemblyFileName" xml:space="preserve">
+    <value>ServerTreeView</value>
+  </data>
+  <data name="AssemblyIsNotRegistered" xml:space="preserve">
+    <value>ServerTreeView assembly is not registered in global assembly cache.: {0}</value>
+  </data>
+  <data name="ErrorAddingAppDirectorytoServer" xml:space="preserve">
+    <value> Failed to add an application to iis server: {0}</value>
+  </data>
+  <data name="ErrorMessageSubscriptionKey" xml:space="preserve">
+    <value>Invalid subscription key</value>
+  </data>
+  <data name="ErrorReadingServer" xml:space="preserve">
+    <value>Unable to read IIS server configuration.</value>
+  </data>
+  <data name="ErrorReadingServerSites" xml:space="preserve">
+    <value>Unable to read IIS server sites.</value>
+  </data>
+  <data name="ErrorReadingServerSite" xml:space="preserve">
+    <value>Unable to read site details on {0} IIS server</value>
+  </data>
+  <data name="ErrorReadingServerSiteApplication" xml:space="preserve">
+    <value>Unable to read {0} application from IIS server.</value>
+  </data>
+  <data name="ErrorReadingServerSiteVirtualDirectory" xml:space="preserve">
+    <value>Unable to read {0} application from IIS server.</value>
+  </data>
+  <data name="ErrorReadingRegistryKey" xml:space="preserve">
+    <value>Registry key cannot be null or empty.</value>
+  </data>
+  <data name="ErrorReadingRegistryKeyandView" xml:space="preserve">
+    <value>Failed to read or view registry key : {0}</value>
+  </data>
+  <data name="ErrorReadingRegistry" xml:space="preserve">
+    <value>Failed to read registry key : {0}</value>
+  </data>
+  <data name="ErrorReadingRegistryKeyPermission" xml:space="preserve">
+    <value>The user doesn't have the necessary registry rights : {0}</value>
+  </data>
+  <data name="ErrorReadingRegistryKeySecurity" xml:space="preserve">
+    <value>The user doesn't have permissions required to read this registry : {0}</value>
+  </data>
+  <data name="MessageServerStop" xml:space="preserve">
+    <value>Stopped website : {0}</value>
+  </data>
+  <data name="MessageServerStart" xml:space="preserve">
+    <value>Started website : {0}</value>
+  </data>
+  <data name="ErrorInServerEvents" xml:space="preserve">
+    <value>Error occurred while refreshing the server site.</value>
+  </data>
+  <data name="ErrorRestartWebSite" xml:space="preserve">
+    <value>Error occurred while refreshing the server site : {0}</value>
+  </data>
+  <data name="ErroraddingModuleInWebConfig" xml:space="preserve">
+    <value>Error while adding module in web config for selected site : {0}</value>
+  </data>
+  <data name="ErrorRemovingModuleInWebConfig" xml:space="preserve">
+    <value>Error while adding Remove Element in web config for selected site : {0}</value>
+  </data>
+  <data name="ErrorUpdatingModuleInWebConfig" xml:space="preserve">
+    <value>Failed to update web config. : {0}</value>
+  </data>
+  <data name="ErrorCommittingChangestoServer" xml:space="preserve">
+    <value> Failed to commit changes to IIS server: {0}</value>
+  </data>
+  <data name="ServerConfigModuleAttribute" xml:space="preserve">
+    <value>system.webServer/modules</value>
+  </data>
+  <data name="ModuleName" xml:space="preserve">
+    <value>Module</value>
+  </data>
+  <data name="ModuleAssemblyName" xml:space="preserve">
+    <value>"Module.dll"</value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>add</value>
+  </data>
+  <data name="ModuleType" xml:space="preserve">
+    <value>managedHandler</value>
+  </data>
+  <data name="remove" xml:space="preserve">
+    <value>remove</value>
+  </data>
+  <data name="ModuleNameSpace" xml:space="preserve">
+    <value>AuthenticationModule</value>
+  </data>
+  <data name="AssemblyNotFoundException" xml:space="preserve">
+    <value>Assembly not found in GAC.</value>
+  </data>
+  <data name="AssemblyLoadException" xml:space="preserve">
+    <value>Error while loading the assembly from GAC.</value>
+  </data>
+  <data name="AssemblyBadFormatException" xml:space="preserve">
+    <value>Bad format assembly.</value>
+  </data>
+  <data name="AssemblyPermissionException" xml:space="preserve">
+    <value>Insufficient permission to load the assembly from GAC.</value>
+  </data>
+  <data name="ErrorValidateCredentials" xml:space="preserve">
+    <value>Unable to connect to Active Directory domain services.</value>
+  </data>
+  <data name="RestartConfirmBoxMessage" xml:space="preserve">
+    <value>A restart of modified site(s) is required for changes to take effect. Do you want to restart now?</value>
+  </data>
+  <data name="RestartServerConfirmBoxMessage" xml:space="preserve">
+    <value>A restart of IIS server is required for changes to take effect. Do you want to restart now?</value>
+  </data>
+  <data name="RestartServerError" xml:space="preserve">
+    <value>An error occured while restarting IIS server.</value>
+  </data>
+  <data name="serverexecutable" xml:space="preserve">
+    <value>iisreset.exe</value>
+  </data>
+  <data name="RunAsAdministrator" xml:space="preserve">
+    <value>Failed to launch the configuration tool. The requested operation requires elevated permissions.</value>
+  </data>
+  <data name="IsServerRunning" xml:space="preserve">
+    <value>Failed to launch the configuration tool. Unable to connect to IIS server. </value>
+  </data>
+  <data name="NoRegisteredServerSite" xml:space="preserve">
+    <value>Failed to launch the configuration tool. No website(s) available in IIS server.</value>
+  </data>
+  <data name="IISServiceName" xml:space="preserve">
+    <value>W3SVC</value>
+  </data>
+  <data name="NoSiteSelectedForAuthentication" xml:space="preserve">
+    <value>Select a site or web application to apply settings.</value>
+  </data>
+  <data name="ErrorValidateProtectedSiteSettings" xml:space="preserve">
+    <value>An error occurred while applying the settings for selected server sites.</value>
+  </data>
+  <data name="LabelApply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="LabelCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+</root>

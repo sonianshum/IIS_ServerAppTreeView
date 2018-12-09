@@ -1,0 +1,7 @@
+C:\Git_Repo\Repo\IIS_ServerAppTreeView\Src\bin\Debug\Configuration.dll
+C:\Git_Repo\Repo\IIS_ServerAppTreeView\Src\bin\Debug\Configuration.pdb
+C:\Git_Repo\Repo\IIS_ServerAppTreeView\Src\Configuration\obj\Debug\Configuration.csprojAssemblyReference.cache
+C:\Git_Repo\Repo\IIS_ServerAppTreeView\Src\Configuration\obj\Debug\Configuration.csproj.CoreCompileInputs.cache
+C:\Git_Repo\Repo\IIS_ServerAppTreeView\Src\Configuration\obj\Debug\Configuration.csproj.CopyComplete
+C:\Git_Repo\Repo\IIS_ServerAppTreeView\Src\Configuration\obj\Debug\Configuration.dll
+C:\Git_Repo\Repo\IIS_ServerAppTreeView\Src\Configuration\obj\Debug\Configuration.pdb

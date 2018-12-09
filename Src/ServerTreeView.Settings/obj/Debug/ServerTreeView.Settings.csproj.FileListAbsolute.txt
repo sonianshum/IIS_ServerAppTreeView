@@ -1,0 +1,10 @@
+C:\Git_Repo\Repo\IIS_ServerAppTreeView\Src\ServerTreeView.Settings\obj\Debug\ServerTreeView.Settings.csprojAssemblyReference.cache
+C:\Git_Repo\Repo\IIS_ServerAppTreeView\Src\ServerTreeView.Settings\obj\Debug\ServerTreeView.Settings.Properties.Resources.resources
+C:\Git_Repo\Repo\IIS_ServerAppTreeView\Src\ServerTreeView.Settings\obj\Debug\ServerTreeView.Settings.ServerSites.resources
+C:\Git_Repo\Repo\IIS_ServerAppTreeView\Src\ServerTreeView.Settings\obj\Debug\ServerTreeView.Settings.csproj.GenerateResource.cache
+C:\Git_Repo\Repo\IIS_ServerAppTreeView\Src\ServerTreeView.Settings\obj\Debug\ServerTreeView.Settings.csproj.CoreCompileInputs.cache
+C:\Git_Repo\Repo\IIS_ServerAppTreeView\Src\bin\Debug\ServerTreeView.Settings.exe
+C:\Git_Repo\Repo\IIS_ServerAppTreeView\Src\bin\Debug\ServerTreeView.Settings.pdb
+C:\Git_Repo\Repo\IIS_ServerAppTreeView\Src\ServerTreeView.Settings\obj\Debug\ServerTreeView.Settings.csproj.CopyComplete
+C:\Git_Repo\Repo\IIS_ServerAppTreeView\Src\ServerTreeView.Settings\obj\Debug\ServerTreeView.Settings.exe
+C:\Git_Repo\Repo\IIS_ServerAppTreeView\Src\ServerTreeView.Settings\obj\Debug\ServerTreeView.Settings.pdb

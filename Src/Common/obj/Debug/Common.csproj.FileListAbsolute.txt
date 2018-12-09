@@ -1,0 +1,6 @@
+C:\Git_Repo\Repo\IIS_ServerAppTreeView\Src\bin\Debug\Common.dll
+C:\Git_Repo\Repo\IIS_ServerAppTreeView\Src\bin\Debug\Common.pdb
+C:\Git_Repo\Repo\IIS_ServerAppTreeView\Src\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Git_Repo\Repo\IIS_ServerAppTreeView\Src\Common\obj\Debug\Common.csproj.CopyComplete
+C:\Git_Repo\Repo\IIS_ServerAppTreeView\Src\Common\obj\Debug\Common.dll
+C:\Git_Repo\Repo\IIS_ServerAppTreeView\Src\Common\obj\Debug\Common.pdb

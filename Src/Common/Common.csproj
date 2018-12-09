@@ -47,6 +47,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommonUtility.cs" />
     <Compile Include="CryptoHelper.cs" />
     <Compile Include="HttpModuleException.cs" />
     <Compile Include="Logger.cs" />

@@ -52,10 +52,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>false</SignAssembly>
-  </PropertyGroup>
-  <PropertyGroup>
-    <AssemblyOriginatorKeyFile>..\Common\QuestSoftware.snk</AssemblyOriginatorKeyFile>
-  </PropertyGroup>
+  </PropertyGroup> 
   <PropertyGroup>
     <ApplicationIcon>
     </ApplicationIcon>

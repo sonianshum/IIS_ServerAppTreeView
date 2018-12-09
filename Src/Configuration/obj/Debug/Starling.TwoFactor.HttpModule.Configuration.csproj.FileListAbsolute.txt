@@ -1,7 +1,0 @@
-C:\Git_Repo\Repo\2FA-HTTP-Module\Src\bin\Debug\Starling.TwoFactor.HttpModule.Configuration.dll
-C:\Git_Repo\Repo\2FA-HTTP-Module\Src\bin\Debug\Starling.TwoFactor.HttpModule.Configuration.pdb
-C:\Git_Repo\Repo\2FA-HTTP-Module\Src\Starling.TwoFactor.HttpModule.Configuration\obj\Debug\Starling.TwoFactor.HttpModule.Configuration.csprojAssemblyReference.cache
-C:\Git_Repo\Repo\2FA-HTTP-Module\Src\Starling.TwoFactor.HttpModule.Configuration\obj\Debug\Starling.TwoFactor.HttpModule.Configuration.csproj.CoreCompileInputs.cache
-C:\Git_Repo\Repo\2FA-HTTP-Module\Src\Starling.TwoFactor.HttpModule.Configuration\obj\Debug\Starling.TwoFactor.HttpModule.Configuration.csproj.CopyComplete
-C:\Git_Repo\Repo\2FA-HTTP-Module\Src\Starling.TwoFactor.HttpModule.Configuration\obj\Debug\Starling.TwoFactor.HttpModule.Configuration.dll
-C:\Git_Repo\Repo\2FA-HTTP-Module\Src\Starling.TwoFactor.HttpModule.Configuration\obj\Debug\Starling.TwoFactor.HttpModule.Configuration.pdb

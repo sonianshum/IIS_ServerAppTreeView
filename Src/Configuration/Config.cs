@@ -13,8 +13,7 @@
     [DataContract]
     public class Config
     {
-        public const string FileName = @"Settings.xml";
-        private const string AuthyUrl = @"https://test.com/protected/json/";
+        public const string FileName = @"Settings.xml";        
         private readonly string _filePath;
 
         public Config(string path)
@@ -23,11 +22,7 @@
             {
                 throw new ArgumentNullException(nameof(path));
             }
-
-            SubscriptionKey = string.Empty;
-            AuthyEndPoint = AuthyUrl;
-            PushNotificationMessage = "Testing";
-            PushNotificationTimeout = 30;
+        
             ProtectedSites = new List<ProtectedSite>();          
 
             Logger.Debug(string.Format(CultureInfo.InvariantCulture, $"Try to find setting file's path :{path}"));
@@ -55,32 +50,7 @@
             {
                 Logger.Error(string.Format(CultureInfo.InvariantCulture, $"HTTP Module settings file not find in {0} location", path));
             }
-        }
-
-        /// <summary>
-        /// Authy end point
-        /// </summary>     
-        [DataMember(Order = 1)]
-        public string AuthyEndPoint { get; set; }
-
-        /// <summary>
-        /// Defender as a service subscription key
-        /// </summary>
-        [DataMember(Order = 2)]
-        public string SubscriptionKey { get; set; }
-
-        /// <summary>
-        /// Push Notification Message
-        /// </summary>
-        [DataMember(Order = 3)]
-        public string PushNotificationMessage { get; set; }
-
-        /// <summary>
-        /// Number of seconds to wait for response from DSS
-        /// </summary>
-        [DataMember(Order = 4)]
-        public int PushNotificationTimeout { get; set; }
-
+        }    
 
         /// <summary>
         /// List of Server web Sites
@@ -128,25 +98,7 @@
         /// </summary>
         /// <param name="config"></param>
         private void Initialize(Config config)
-        {
-            this.SubscriptionKey = config.SubscriptionKey;
-
-            if (config.AuthyEndPoint != null)
-            {
-                // if the value doesn't exists, use default value
-                this.AuthyEndPoint = config.AuthyEndPoint;
-            }
-
-            if (!string.IsNullOrWhiteSpace(config.PushNotificationMessage))
-            {
-                this.PushNotificationMessage = config.PushNotificationMessage;
-            }
-
-            if (config.PushNotificationTimeout > 0)
-            {
-                this.PushNotificationTimeout = config.PushNotificationTimeout;
-            }
-
+        {         
             if (config.ProtectedSites != null)
             {
                 this.ProtectedSites = config.ProtectedSites;
